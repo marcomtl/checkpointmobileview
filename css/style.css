@@ -35,6 +35,11 @@ nav a{
     background-color: #eeff00;
 }
 
+h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
 footer{
     width: 100px;
 	padding: 10px;
@@ -44,6 +49,9 @@ footer{
 }
 
 /* Checkpointmobile */
+@media screen  and (max-width: 900px){ 
+
+
 .fa-solid{
     color: white;
 }
@@ -67,7 +75,7 @@ body{
     animation-name: appear;
     animation-duration: 3s;
 }
-
+}
 
 
 @keyframes appear{
