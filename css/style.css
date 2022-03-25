@@ -33,6 +33,8 @@ nav a{
 
 .active{
     background-color: #eeff00;
+    border-radius: 0%;
+    text-transform: uppercase;
 }
 
 h1{
