@@ -3,7 +3,7 @@
     left: -1000px;
 }
 .skip:focus{
-    left: 10
+    left: 10px;
 }
 
 img{
@@ -45,7 +45,6 @@ footer{
 	padding: 10px;
 	margin: 5px;
 	border: 1px solid black;
-    background-color: none;
 }
 
 /* Checkpointmobile */
@@ -64,9 +63,21 @@ footer{
 
 body{
     font-family: 'Roboto', serif;
-    background-image: url("../images/Background\ IMG.jpeg") ;
-    background-color: black;
+    background-color: white;
+    padding: 30px;
     
+}
+
+#index{
+    background-image: url("../images/binge\ watching.jpg") ;
+    background-size: 100%;
+}
+
+.index_h1{
+    color: white;
+}
+.paragraph_1{
+    color: white;
 }
 
 #images{
@@ -95,9 +106,9 @@ nav li{
     to{opacity: 1;}
 }
 
-/*
+
 @media screen and (prefers-reduced-motion: reduce) {
     #images{
         animation: none;
     } 
-} */
+}
